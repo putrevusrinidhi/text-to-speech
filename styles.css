@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(texttospeech-840x270.webp);
+}
+
+.container{
+    background-color: #f1eaef;
+    color: #100101;
+    display: grid;
+    gap: 200px;
+    width: 450px;
+    max: width 40px;;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    break-after: always;
+
+}
+
+#text{
+    display: block;
+    height: 50px;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    resize: none;
+    padding: 8px 10px;
+    outline: 2px solid rgba(14, 2, 2, 0.623);
+}
+
+button{
+    padding: 10px;
+    background: #f5f0f4;
+    color: #050000;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
